@@ -13,6 +13,6 @@ import xlsxwriter
 workbook = xlsxwriter.Workbook('unicode_python3.xlsx')
 worksheet = workbook.add_worksheet()
 
-worksheet.write('B3', 'Это фраза на русском!')
+worksheet.write('B3', 'Це вислів українською!')
 
 workbook.close()
